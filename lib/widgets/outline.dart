@@ -17,3 +17,5 @@ class Outline extends StatelessWidget {
     ); 
   }
 }
+
+// Buat outline agar semua file sama paddingnya

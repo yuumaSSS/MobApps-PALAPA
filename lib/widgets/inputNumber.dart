@@ -113,3 +113,5 @@ class _InputNumberState extends State<InputNumber> {
     );
   }
 }
+
+// Input box untuk number

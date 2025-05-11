@@ -53,3 +53,5 @@ class _ButtonColor extends State<Next>{
     );
   }
 }
+
+// Tombol next

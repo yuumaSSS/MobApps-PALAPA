@@ -108,3 +108,5 @@ class _InputTextState extends State<InputText> {
     );
   }
 }
+
+// Input box untuk text

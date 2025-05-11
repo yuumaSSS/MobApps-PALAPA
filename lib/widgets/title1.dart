@@ -27,3 +27,5 @@ class Title1 extends StatelessWidget {
     );
   }
 }
+
+// Buat angka page, page yang dimaksud yang paling atas seperti di figma
