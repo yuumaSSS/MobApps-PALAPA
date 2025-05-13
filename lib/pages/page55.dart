@@ -4,22 +4,21 @@ import '../widgets/inputText.dart';
 import '../widgets/next.dart';
 import '../widgets/prev.dart';
 import '../widgets/watermark.dart';
-import 'page51.dart';
+import 'page56.dart';
 
-
-class Page5 extends StatelessWidget {
-  const Page5({super.key});
+class Page55 extends StatelessWidget {
+  const Page55({super.key});
 
   @override
   Widget build(BuildContext context) {
     final List<String> fiturList = [
-      "Airbag",
-      "Sistem Audio",
-      "Power Window",
-      "Sistem AC",
-      "Interior",
-      "Interior",
-      "Interior",
+      "Bunyi/Getaran",
+      "Performa Stir",
+      "Perpindahan Transmisi",
+      "Stir Balance",
+      "Performa Suspensi",
+      "Performa Kopling",
+      "RPM"
     ];
 
     return Scaffold(
@@ -30,9 +29,9 @@ class Page5 extends StatelessWidget {
             children: [
               const Text("5/9", style: TextStyle(color: Colors.orange, fontSize: 20)),
               const SizedBox(height: 5),
-              const Text("Penilaian (1)", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22)),
+              const Text("Penilaian (6)", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22)),
               const SizedBox(height: 10),
-              const Text("Fitur", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+              const Text("Test Drive", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
               const SizedBox(height: 10),
 
               // Rating untuk setiap fitur
@@ -50,7 +49,7 @@ class Page5 extends StatelessWidget {
                 children: const [
                   Expanded(child: Prev()),
                   SizedBox(width: 10),
-                  Expanded(child: Next(location: Page51())), // Ganti dengan Page6 nanti
+                  Expanded(child: Next(location: Page56())), // Ganti dengan Page6 nanti
                 ],
               ),
               const SizedBox(height: 100),
