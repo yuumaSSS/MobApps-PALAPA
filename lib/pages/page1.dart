@@ -42,7 +42,7 @@ class Page1 extends StatelessWidget {
               InputText(title: 'Cabang Inspeksi', hint: 'Contoh : Yogyakarta / Semarang'),
               SizedBox(height: 22),
 
-              // Kurang Calendar : belum ada widget customnya, perlu buat inputCalendar dan calendar
+              // Kurang Calendar : belum ada widget customnya, perlu buat inputCalendar dan calendar oke
 
               Row(
                 children: [
